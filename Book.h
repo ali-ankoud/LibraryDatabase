@@ -6,13 +6,13 @@
 using namespace std;
 
 class Book {
-Public:
+    public:
 
-Private:
-    string name;
-    string author;
-    int day, month, year;
-    bool checkedOut;
+    private:
+        string name;
+        string author;
+        int day, month, year;
+        bool checkedOut;
 };
 
 #endif
