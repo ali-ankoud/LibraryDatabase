@@ -10,8 +10,22 @@ class Database {
     Book value;
 };
 
-Book findBook(int key){
-    // holder
+Database::Database(){
+    // constructor
 }
 
-#endif
+Database::~Database(){
+    // destructor
+}
+
+Database::initializeBooks(istream){
+    // create book database
+}
+
+Database::initializePatrons(istream){
+    // create patron database
+}
+
+Database::runCommands(istream) {
+    // create list of commands, runs them to generate database
+}
