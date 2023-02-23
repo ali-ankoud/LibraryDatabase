@@ -1,5 +1,9 @@
 // hash table of book objects
 
+#ifndef DATABASE_H
+#define DATABASE_H
+
+#include "Book.h"
 
 class Database {
     int key;
@@ -9,3 +13,5 @@ class Database {
 Book findBook(int key){
     // holder
 }
+
+#endif
