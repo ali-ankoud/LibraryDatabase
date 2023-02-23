@@ -32,7 +32,7 @@ class Book {
         int copiesAvailable; // number of copies that are available
         // for checkout
         // Must be set by child classes in constructor
-    
+
     private:
         string name; // the title
         string author; // the first and last name of author
