@@ -4,7 +4,17 @@
 #define CHILDRENBOOK_H
 
 class ChildrenBook {
-    int copiesAvailable;   // 5 max
+    public:
+    ChildrenBook(){
+        // call parent no-arg constr
+        // set numOfCopies to 5
+    }
+    
+    ChildrenBook(string name, string author, int day, int month, int year){
+        // call parent constr
+        // set numOfCopies to 5
+    }
+    
 };
 
 #endif
