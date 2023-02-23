@@ -28,11 +28,15 @@ class Book {
         // return true
     }
 
+    protected:
+        int copiesAvailable; // number of copies that are available
+        // for checkout
+        // Must be set by child classes in constructor
+    
     private:
-        string name;
-        string author;
-        int day, month, year;
-        int copiesAvailable;
+        string name; // the title
+        string author; // the first and last name of author
+        int day, month, year; // date of publication
 };
 
 #endif
