@@ -5,12 +5,12 @@
 
 class FictionBook {
     public:
-    ChildrenBook(){
+    FictionBook(){
         // call parent no-arg constr
         // set numOfCopies to 5
     }
     
-    ChildrenBook(string name, string author, int day, int month, int year){
+    FictionBook(string name, string author, int day, int month, int year){
         // call parent constr
         // set numOfCopies to 5
     }
