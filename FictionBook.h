@@ -4,7 +4,17 @@
 #define FICTIONBOOK_H
 
 class FictionBook {
-    int copiesAvailable;   // 5 max
+    public:
+    FictionBook(){
+        // call parent no-arg constr
+        // set numOfCopies to 5
+    }
+    
+    FictionBook(string name, string author, int day, int month, int year){
+        // call parent constr
+        // set numOfCopies to 5
+    }
+    
 };
 
 #endif
