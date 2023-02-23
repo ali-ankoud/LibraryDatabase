@@ -1,5 +1,7 @@
 // class for a children's book
 
+// constructs the childrens book object and sets the number of copies
+
 #ifndef CHILDRENBOOK_H
 #define CHILDRENBOOK_H
 
@@ -15,6 +17,8 @@ class ChildrenBook {
         // set numOfCopies to 5
     }
     
+    private:
+        int numOfCopies;
 };
 
 #endif

@@ -1,42 +1,27 @@
-// book base class
+// Book Header File
+
+// This class stores the book author and creates the base book object,
+// and is the parent of the book type objects.
 
 #ifndef BOOK_H
 #define BOOK_H
+
+#include "ChildrenBook.h"
+#include "FictionBook.h"
+#include "PeriodicalBook.h"
+
+#include <iostream>
+#include <string>
 
 using namespace std;
 
 class Book {
     public:
-    Book(){
-        // set default values
-    }
-    
-    Book(string name, string author, int day, int month, int year){
-        // set name, author, day, month, year
-        // do not set copiesAvailable: handled in child classes
-    }
-    
-    bool checkOut(){
-        // if(no copies left) return false
-        // decrement copiesAvailable
-        // return true
-    }
-    
-    bool checkIn(){
-        // if(max copies) return false
-        // increment copiesAvailable
-        // return true
-    }
-
-    protected:
-        int copiesAvailable; // number of copies that are available
-        // for checkout
-        // Must be set by child classes in constructor
-
+        Book(); // constructor
+        ~Book(); // destructor
     private:
-        string name; // the title
-        string author; // the first and last name of author
-        int day, month, year; // date of publication
+        string authorFirst;
+        string authorLast;
 };
 
 #endif

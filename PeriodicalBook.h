@@ -1,5 +1,7 @@
 // class for a periodical
 
+// constructs the periodical book object and sets the number of copies
+
 #ifndef PERIODICALBOOK_H
 #define PERIODICALBOOK_H
 
@@ -14,6 +16,9 @@ class PeriodicalBook {
         // call parent constr
         // set numOfCopies to 1
     }
+
+    private:
+        int numOfCopies;
     
 };
 
